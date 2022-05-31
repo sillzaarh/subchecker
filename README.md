@@ -6,7 +6,7 @@ This is a simple python tool which request given subdomains or URLs and finds ou
 <pre><code>
 usage: checker.py [-h] [-u] [-l]
 
-Check if the given subdomains or URLs are working or not.
+Check if the provided subdomains or URLs are working or not.
 
 options:
   -h, --help    show this help message and exit
