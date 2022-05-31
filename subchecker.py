@@ -6,7 +6,7 @@ import urllib3
 import threading
 urllib3.disable_warnings()
 
-parser = argparse.ArgumentParser(description="Check if the given subdomains or URLs are working or not.")
+parser = argparse.ArgumentParser(description="Check if the provided subdomains or URLs are working or not.")
 parser.add_argument("-u", "--url", type=str, metavar="",  help="enter the URL (URL should be provided in proper format)")
 parser.add_argument("-l", "--list", type=str, metavar="", help="enter the path to file of list of URLs")
 args = parser.parse_args()
