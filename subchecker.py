@@ -40,6 +40,6 @@ if args.list:
     file.close()
     
     for url in urls:
-        url = url.replace("\n", "")
+        url = url.strip()
         t = threading.Thread(target=req, args=(url,))
         t.start()
