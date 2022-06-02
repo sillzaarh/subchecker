@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 
-import requests
-import argparse
-import urllib3
-import threading
+import requests, argparse, urllib3, threading
 urllib3.disable_warnings()
 
 parser = argparse.ArgumentParser(description="Check if the provided subdomains or URLs are working or not.")
