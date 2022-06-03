@@ -10,6 +10,6 @@ Subdomain or URL Checker Tool
 
 options:
   -h, --help    show this help message and exit
-  -u , --url    enter the URL
+  -u , --url    enter URL
   -l , --list   enter the path to file of list of URLs
   </code></pre>
