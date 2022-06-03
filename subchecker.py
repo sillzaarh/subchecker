@@ -4,7 +4,7 @@ import requests, argparse, urllib3, threading
 urllib3.disable_warnings()
 
 parser = argparse.ArgumentParser(description="Subdomain or URL Checker Tool")
-parser.add_argument("-u", "--url", type=str, metavar="",  help="enter the URL (URL should be provided in proper format)")
+parser.add_argument("-u", "--url", type=str, metavar="",  help="enter the URL")
 parser.add_argument("-l", "--list", type=str, metavar="", help="enter the path to file of list of URLs")
 args = parser.parse_args()
 
