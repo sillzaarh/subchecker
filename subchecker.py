@@ -12,18 +12,18 @@ def req(url):
     if "http://" in url or "https://" in url:
         u = url
         try:
-            res = requests.get(u, allow_redirects=False)
+            res = requests.get(u, allow_redirects=False, timeout=3)
             print(str(res.url))
         except: pass    
     else:
         u = "https://" + url
         try:
-            res = requests.get(u, allow_redirects=False)
+            res = requests.get(u, allow_redirects=False, timeout=3)
             print(str(res.url))
         except: 
             try:
                 u = u.replace("https://", "http://")
-                res = requests.get(u, allow_redirects=False)
+                res = requests.get(u, allow_redirects=False, timeout=3)
                 print(str(res.url))
             except: pass
     
