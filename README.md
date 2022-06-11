@@ -12,4 +12,6 @@ options:
   -h, --help    show this help message and exit
   -u , --url    enter URL
   -l , --list   enter the path to file of list of URLs
-  </code></pre>
+  </code></pre><br>
+
+> *Don't hate the hacker, hate the code*
