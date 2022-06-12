@@ -13,3 +13,20 @@ options:
   -u , --url    enter URL
   -l , --list   enter the path to file of list of URLs
   </code></pre>
+
+# Installation
+Clone the repository
+<pre><code>git clone https://github.com/mmbverse/subchecker.git
+cd subchecker
+</pre></code>subchecker
+Python
+<pre><code>pip install -r requirements.txt
+python subchecker.py
+</pre></code>
+Bash
+<pre><code>pip3 install -r requirements.txt
+chmod +x subchecker.py
+
+# copy to /usr/local/bin to access the tool from anywhere
+sudo cp subchecker.py /usr/local/bin/subchecker
+</pre></code>
